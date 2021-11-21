@@ -36,7 +36,7 @@ namespace GetTempBusinessLayer
             }
             catch (Exception e)
             {
-                Console.WriteLine("Caught exception when loading a bucket:");
+                Console.WriteLine("Caught exception when loading a bucket");
                 Console.WriteLine(e.Message);
             }
             return data;
